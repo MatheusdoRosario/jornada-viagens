@@ -60,7 +60,8 @@ section {
   margin: 0 auto 32px;
 }
 
-section.hero {
+section.hero,
+section.hero-footer {
   width: 100%;
   margin: 0;
 }
