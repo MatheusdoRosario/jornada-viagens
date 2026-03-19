@@ -60,6 +60,11 @@ section {
   margin: 0 auto 32px;
 }
 
+.section-title.japao {
+  width: 312px;
+  margin: 0 auto 32px 0;
+}
+
 section.hero,
 section.hero-footer {
   width: 100%;
@@ -73,6 +78,15 @@ section.hero-footer {
   text-align: center;
 }
 
+.section-title.japao h2 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+  margin: 0px;
+  text-align: left;
+  padding: 88px 24px 0;
+}
+
 .section-title hr {
   width: 180px;
   height: 4px;
@@ -81,10 +95,31 @@ section.hero-footer {
   margin: 16px auto 32px; 
 }
 
+.section-title.japao hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px; 
+}
+
+.section-title.japao h3 {
+  padding: 88px 24px;
+  margin: 0px;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
 .content-title {
   font-size: 28px;
-  font-weight: var(--text-weight);
+  font-weight: var(--title-weight);
   margin: 0 0 24px;
+}
+
+.content-title.travel-price {
+  font-size: 40px;
 }
 
 .content-text {

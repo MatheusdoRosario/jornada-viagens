@@ -19,6 +19,21 @@
     background: url(../img/condicoes-people-mobile.png) no-repeat;
     background-size: cover;
 }
+.payments .content-container .image-gallery .image.temple {
+    background: url(../img/japao-temple.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.payments .content-container .image-gallery .image.street {
+    background: url(../img/japao-street.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.payments .content-container .image-gallery .image.sr {
+    background: url(../img/japao-sr.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .payments .content-container .image-gallery .image.colspan-2 {
     grid-column: span 2;
 }
